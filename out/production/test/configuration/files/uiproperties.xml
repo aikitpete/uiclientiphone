@@ -1,0 +1,20 @@
+<ClassPaths xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="../schemas/classpathfile.xml.xsd">
+    <!--TODO schema should be edited-->
+
+    <class name="styles" path="">
+        <property uiName="font.size" asName="fontSize" defaultValue="20"/>
+        <property uiName="font.color" asName="color" defaultValue="0x4C566C"/>
+        <property uiName="font.bold" asName="fontWeight" defaultValue="bold"/>
+        <property uiName="font.name" asName="fontName" defaultValue="Helvetica"/>
+        <property uiName="font.family" asName="fontFamily" defaultValue="Helvetica"/>
+    </class>
+
+    <class name="positions" path="">
+        <property uiName="x" asName="" defaultValue=""/>
+        <property uiName="y" asName="" defaultValue=""/>
+        <property uiName="width" asName="" defaultValue=""/>
+        <property uiName="height" asName="" defaultValue=""/>
+    </class>
+
+</ClassPaths>

@@ -1,0 +1,7 @@
+<UIProtocol version="1.0">
+    <events>
+        <event id="public.connection.connect">
+            <!-- description of client -->
+        </event>
+    </events>
+</UIProtocol>

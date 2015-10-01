@@ -1,0 +1,13 @@
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+  <target-player>10.0.0</target-player>
+  <compiler>
+    <debug>true</debug>
+    <source-path>
+      <path-element>src</path-element>
+    </source-path>
+  </compiler>
+  <file-specs>
+    <path-element>src/UIProtocolClientForIPhone.mxml</path-element>
+  </file-specs>
+  <output>/Users/swyna/IdeaProjects/test/out/production/test/_UIProtocolClientForIPhone.swf</output>
+</flex-config>

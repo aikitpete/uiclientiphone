@@ -1,0 +1,14 @@
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../schemas/configurationfile.xml.xsd">
+    <iphonemode value="false"/>
+    <policyserverhost value="localhost"/>
+    <policyserverport value="3333"/>
+    <uiserverhost value="localhost"/>
+    <uiserverport value="3332"/>
+    <defaultdocumentspath value="configuration/files/defaultxmls.xml"/>
+    <defaultmodelspath value="configuration/files/defaultmodels.xml"/>
+    <uitriggerspath value="configuration/files/uitriggers.xml"/>
+    <uicomponentspath value="configuration/files/uicomponents.xml"/>
+    <uipropertiespath value="configuration/files/uiproperties.xml"/>
+    <uimodifierspath value="configuration/files/uimodifiers.xml"/>
+</Configuration>

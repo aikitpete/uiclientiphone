@@ -1,0 +1,27 @@
+<ClassPaths xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="../schemas/classpathfile.xml.xsd">
+    <class name="public.media.still" path="mx.controls.Image">
+        <property uiName="url" asName="load()" defaultValue=""/>
+    </class>
+    <class name="public.button" path="mx.controls.Button">
+        <property uiName="name" asName="label" defaultValue=""/>
+    </class>
+    <class name="public.input" path="mx.controls.TextArea">
+
+    </class>
+    <class name="public.text" path="mx.controls.Label">
+
+    </class>
+    <class name="public.checkbox" path="mx.controls.CheckBox">
+        <property uiName="name" asName="label" defaultValue=""/>
+    </class>
+    <class name="public.media.video" path="components.uicomponents.customcomponents.ExtendedVideoDisplay">
+        <property uiName="url" asName="source" defaultValue=""/>
+        <property uiName="volume" asName="volume" defaultValue="0.75"/>
+        <property uiName="time" asName="" defaultValue=""/>
+        <property uiName="buffer" asName="" defaultValue=""/>
+
+        <!--Should be removed-->
+        <property uiName="play" asName="play()" defaultValue=""/>
+    </class>
+</ClassPaths>

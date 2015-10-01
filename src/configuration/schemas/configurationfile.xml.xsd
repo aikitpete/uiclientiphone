@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Configuration" type="ConfigurationType">
+    </xs:element>
+
+    <xs:complexType name="ConfigurationType">
+        <xs:choice minOccurs="11" maxOccurs="11">
+            <xs:element type="booleanType" name="iphonemode" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="policyserverhost" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="policyserverport" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="uiserverhost" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="uiserverport" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="defaultdocumentspath" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="defaultmodelspath" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="uitriggerspath" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="uicomponentspath" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="uipropertiespath" minOccurs="1" maxOccurs="1"/>
+            <xs:element type="stringType" name="uimodifierspath" minOccurs="1" maxOccurs="1"/>
+        </xs:choice>
+    </xs:complexType>
+
+    <xs:complexType name="stringType">
+        <xs:attribute type="xs:string" name="value" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="booleanType">
+        <xs:attribute type="xs:boolean" name="value" use="required"/>
+    </xs:complexType>
+
+
+</xs:schema>

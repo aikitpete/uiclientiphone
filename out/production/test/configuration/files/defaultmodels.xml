@@ -1,0 +1,6 @@
+<DocumentPaths xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="/configuration/schemas/documentpathfile.xml.xsd">
+    <document name="public.actions" path="configuration/defaultmodels/actions.xml"/>
+    <document name="public.application" path="configuration/defaultmodels/application.xml"/>
+
+</DocumentPaths>
